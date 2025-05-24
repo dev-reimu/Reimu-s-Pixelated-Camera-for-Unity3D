@@ -71,10 +71,10 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-/Built-in Render Pipeline/[Ll]ibrary/
-/Built-in Render Pipeline/[Tt]emp/
-/Built-in Render Pipeline/[Oo]bj/
-/Built-in Render Pipeline/[Bb]uild/
-/Built-in Render Pipeline/[Bb]uilds/
-/Built-in Render Pipeline/[Ll]ogs/
-/Built-in Render Pipeline/[Uu]ser[Ss]ettings/
+/Unity Project Files/[Ll]ibrary/
+/Unity Project Files/[Tt]emp/
+/Unity Project Files/[Oo]bj/
+/Unity Project Files/[Bb]uild/
+/Unity Project Files/[Bb]uilds/
+/Unity Project Files/[Ll]ogs/
+/Unity Project Files/[Uu]ser[Ss]ettings/
