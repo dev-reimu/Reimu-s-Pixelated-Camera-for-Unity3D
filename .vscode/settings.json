@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Pixelated Vision Package.sln"
+    "dotnet.defaultSolution": "Reimu-s-Pixelated-View-for-Unity3D.sln"
 }
