@@ -1,6 +1,0 @@
-sceneSetups:
-- path: Assets/Reimu's Pixelated Camera for Unity Package/Pixelated Camera Showcase
-    Scene.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
