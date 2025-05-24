@@ -4,17 +4,17 @@ public class PixelatedView : MonoBehaviour
 {
     RenderTexture renderTexture;
 
-    [SerializeField] short _desiredPixelDensity = 128;
-    public short desiredPixelDensity
+    [SerializeField] int _desiredPixelDensity = 128;
+    public int desiredPixelDensity
     {
         get { return _desiredPixelDensity; }
         set
         {
-            _desiredPixelDensity = value;
+            _desiredPixelDensity = Mathf.Clamp(value, 1, Screen.currentResolution.height);
 
             renderTexture.Release();
-            renderTexture.height = value;
-            renderTexture.width = (int)((float)Screen.currentResolution.width / (float)Screen.currentResolution.height * value);
+            renderTexture.width = Mathf.Clamp((int)((float)Screen.currentResolution.width / (float)Screen.currentResolution.height * _desiredPixelDensity), 1, Screen.currentResolution.width);
+            renderTexture.height = _desiredPixelDensity;
             renderTexture.Create();
         }
     }
