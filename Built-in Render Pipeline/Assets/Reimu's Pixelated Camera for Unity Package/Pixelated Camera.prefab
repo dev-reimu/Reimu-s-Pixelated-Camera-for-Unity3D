@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22d330ccab56a3e43b40ad34e647a6cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _desiredPixelDensity: 64
+  _desiredPixelDensity: 128
 --- !u!1 &5464380241711471236
 GameObject:
   m_ObjectHideFlags: 0
